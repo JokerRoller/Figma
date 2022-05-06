@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+/* ===============================HEADER(start)============================================== */
 header {
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
     width: 100%;
     height: 50px;
     margin: 0px;
 }
 section {
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
     width: 100%;
     margin: 0px;
 }
 footer {
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
     width: 100%;
     margin: 0px;
 }
@@ -20,10 +20,10 @@ footer {
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
 }
 .hcolum1 {
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
     width: 20%;
     display: flex;
     justify-content: right;
@@ -31,7 +31,7 @@ footer {
 .hcolum2 {
     display: flex;
     justify-content: left;
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
     width: 26.67%;
     font-family: lato;
     font-size: 18px;
@@ -42,7 +42,7 @@ footer {
 }
 .hcolum2home {
     width: 25%;
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
 }
 .hcolum2catalog {
     width: 25%;
@@ -53,7 +53,7 @@ footer {
     letter-spacing: 0em;
     text-align: left;
     opacity: 40%;
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
 }
 .hcolum2orders {
     width: 25%;
@@ -64,11 +64,82 @@ footer {
     letter-spacing: 0em;
     text-align: left;
     opacity: 40%;
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
 }
 .hcolum3 {
-    /* border: solid black 1px; */;
+    /* border: solid black 1px; */
     width: 26.67%;
     display: flex;
     justify-content: left;
+    position: relative;
+    left: 250px;
+}
+/* ===============================HEADER(End)============================================== */
+.sone {
+    /* border: solid black 1px; */
+    margin-top: 86px;
+}
+.s1box {
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: center;
+}
+.s1colum1 {
+    /* border: solid black 1px; */
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    left: 220px;
+}
+.s1colum2 {
+    /* border: solid black 1px; */
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 60%;
+    position: relative;
+    top: 140px;
+    right: 130px;
+}
+.s1colum3 {
+    /* border: solid black 1px; */
+    height: 70px;
+    width: 260px;
+    border-radius: 10px;
+    background: #FF99C8;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    top: 220px;
+    left: -350px;
+}
+.s1colum4 {
+    border: solid white 1px;
+}
+.svg1 {
+    /* border: solid black 1px; */
+    position: relative;
+    top: 62px;
+    left: 315px;
+}
+.s1colum5 {
+    /* border: solid black 1px; */
+    background: #FCF6BD;
+    border-top-left-radius: 92px;
+    border-bottom-left-radius: 92px;
+    height: 495px;
+    width: 398px;
+    position: relative;
+    left: 61px;
 }
