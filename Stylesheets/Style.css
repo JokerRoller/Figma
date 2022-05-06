@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 header {
-    border: solid black 3px;
+    /* border: solid black 1px; */;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+}
+section {
+    /* border: solid black 1px; */;
+    width: 100%;
+    margin: 0px;
+}
+footer {
+    /* border: solid black 1px; */;
+    width: 100%;
+    margin: 0px;
+}
+.hbox {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    /* border: solid black 1px; */;
+}
+.hcolum1 {
+    /* border: solid black 1px; */;
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+.hcolum2 {
+    display: flex;
+    justify-content: left;
+    /* border: solid black 1px; */;
+    width: 26.67%;
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.hcolum2home {
+    width: 25%;
+    /* border: solid black 1px; */;
+}
+.hcolum2catalog {
+    width: 25%;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 40%;
+    /* border: solid black 1px; */;
+}
+.hcolum2orders {
+    width: 25%;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 40%;
+    /* border: solid black 1px; */;
+}
+.hcolum3 {
+    /* border: solid black 1px; */;
+    width: 26.67%;
+    display: flex;
+    justify-content: left;
 }
