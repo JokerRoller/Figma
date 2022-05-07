@@ -1,91 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-/* ===============================HEADER(start)============================================== */
+
+body {
+    margin: 0;
+}
 header {
-    /* border: solid black 1px; */
-    width: 100%;
-    height: 50px;
-    margin: 0px;
+    display: flex;
+    justify-content: center;
+    width: 1366px;
 }
-section {
-    /* border: solid black 1px; */
-    width: 100%;
-    margin: 0px;
-}
-footer {
-    /* border: solid black 1px; */
-    width: 100%;
-    margin: 0px;
-}
-.hbox {
+.hrow {
     display: flex;
     justify-content: space-between;
-    justify-content: space-around;
-    /* border: solid black 1px; */
-}
-.hcolum1 {
-    /* border: solid black 1px; */
-    width: 20%;
-    display: flex;
-    justify-content: right;
+    width: 79%;
+    align-items: center;
+    margin-top: 25px;
 }
 .hcolum2 {
+    position: relative;
+    right: 19.23%
+}
+.nav {
     display: flex;
-    justify-content: left;
-    /* border: solid black 1px; */
-    width: 26.67%;
-    font-family: lato;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.hcolum2home {
-    width: 25%;
-    /* border: solid black 1px; */
-}
-.hcolum2catalog {
-    width: 25%;
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    opacity: 40%;
-    /* border: solid black 1px; */
-}
-.hcolum2orders {
-    width: 25%;
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    opacity: 40%;
-    /* border: solid black 1px; */
+    justify-content: space-between;
+    list-style: none;
+    width: 225px;
+    margin: 0;
+    padding: 0;
 }
 .hcolum3 {
-    /* border: solid black 1px; */
-    width: 26.67%;
-    display: flex;
-    justify-content: left;
-    position: relative;
-    left: 250px;
-}
-/* ===============================HEADER(End)============================================== */
-.sone {
-    /* border: solid black 1px; */
-    margin-top: 86px;
-}
-.s1box {
-    /* border: solid black 1px; */
     display: flex;
     justify-content: center;
 }
-.s1colum1 {
-    /* border: solid black 1px; */
+.nav li a {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #040200;
+    opacity: 0.4;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #040200;
+    opacity: 1;
+}
+.move {
+    position: relative;
+    right: 20.37%;
+    top: 2px;
+}
+
+.sconteiner1 {
+    width: 1366px;
+    display: flex;
+    justify-content: right;
+    margin-top: 82px;
+}
+.srow {
+    display: flex;
+    justify-content: space-between;
+    width: 89.5%;
+    height: 500px;
+}
+.background {
+    position: relative;
+    bottom: 80%;
+    left: 24.72%;
+    z-index: -1;
+}
+.banner {
+    position: relative;
+    top: 62px;
+    right: 146px;
+}
+.sh {
     font-family: Lato;
     font-size: 42px;
     font-weight: 800;
@@ -93,53 +83,249 @@ footer {
     letter-spacing: 0em;
     text-align: left;
     position: relative;
-    left: 220px;
+    top: 66px;
+    margin-bottom: 12px;
 }
-.s1colum2 {
-    /* border: solid black 1px; */
+.scolum1 {
+    width: 444px;
+    height: 500px;
+}
+.sp {
     font-family: Lato;
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    opacity: 60%;
+    opacity: 0.6;
     position: relative;
-    top: 140px;
-    right: 130px;
+    top: 66px;
+    margin-bottom: 50px ;
 }
-.s1colum3 {
-    /* border: solid black 1px; */
+.sb {
     height: 70px;
     width: 260px;
     border-radius: 10px;
     background: #FF99C8;
+    border: none;
+    position: relative;
+    top: 66px;
+}
+.sb a {
     font-family: Lato;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
     letter-spacing: 0em;
+    text-align: left;
+    color: #040200;
+}
+
+.sconteiner2 {
+    width: 1366px;
+    display: flex;
+    justify-content: right;
+    margin-top: 80px;
+}
+.srow2 {
+    width: 89.5%;
+}
+.sh2 {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 12.56px;
+}
+.sh2 a {
+    color: #FF99C8;
+}
+.sp2 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.sconteiner3 {
+    width: 1366px;
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+}
+.srow3 {
+    width: 89.5%;
+}
+
+.sconteiner4 {
+    width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    height: 381px;
+    margin-top: 80px;
+}
+.srow4 {
+    width: 89.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.banner2 {
+position: relative;
+bottom: 344px;
+left: 139px;
+}
+.scolum4 {
+    width: 460px;
+    position: relative;
+    left: 25.44px;
+}
+.scolum3 {
+    width: 578px;
+}
+.sh2 {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.sp2 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.6;
+    margin-top: 19.5px;
+}
+.sb2 {
+    height: 70px;
+    width: 260px;
+    border-radius: 10px;
+    background: #FF99C8;
+    border: none;
+    position: relative;
+    top: 95px;
+}
+.sb2 a {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #040200;
+}
+
+.sconteiner5 {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 303px;
+}
+.srow5 {
+    width: 80%;
+    display: flex;
     text-align: center;
+}
+.sh3 {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    margin-bottom: 22px;
     position: relative;
-    top: 220px;
-    left: -350px;
+    bottom: 35px;
 }
-.s1colum4 {
-    border: solid white 1px;
-}
-.svg1 {
-    /* border: solid black 1px; */
+.sp3 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-bottom: 15px;
     position: relative;
-    top: 62px;
-    left: 315px;
+    bottom: 35px;
 }
-.s1colum5 {
-    /* border: solid black 1px; */
+
+.sconteiner6 {
+    width: 1366px;
+    display: flex;
+    justify-content: center;
     background: #FCF6BD;
-    border-top-left-radius: 92px;
-    border-bottom-left-radius: 92px;
-    height: 495px;
-    width: 398px;
+    height: 160px;
+    margin-top: 76px;
+}
+.srow6 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.scolum7 {
+    width: 351px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
-    left: 61px;
+    top: 50px;
+    left: -4px;
+}
+.mail {
+    width: 351px;
+    height: 60px;
+    border: none;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.4;
+    margin-left: 19px;
+}
+.sb7 {
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    background: #FF99C8;
+    color: white;
+    position: relative;
+    border: none;
+    padding: 0;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-right: 20px;
+}
+.sh4 {
+    font-family: Gilroy;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.sp4 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.6;
 }
